@@ -90,16 +90,23 @@ section{
 .title h6{
     color: #f50e5d;
 }
+.service{
+    background-color: #fff;
+}
 .icons i{
-    background-color: #f50e5d;
-    color:white;
-    padding: 14px;
+    /* background-color: #f50e5d; */
+    color:#f50e5d;
+    /* padding: 14px; */
     border-radius: 100%;
     font-size: 50px;
 }
-.service:hover .icons i{
-    background-color: white;
-    color: #f50e5d;
+.service:hover{
+    background-color: #f50e5d;
+    color: #fff;
+}
+.service:hover .icons i,.service h5{
+    /* /* background-color: white; */
+    color: #fff; 
 }
 
 
