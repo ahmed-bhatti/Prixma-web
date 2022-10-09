@@ -99,14 +99,19 @@ section{
     /* padding: 14px; */
     border-radius: 100%;
     font-size: 50px;
+    transition: all 1s ease;
+
 }
 .service:hover{
     background-color: #f50e5d;
     color: #fff;
+    transition: all 1s ease;
+
 }
 .service:hover .icons i,.service h5{
     /* /* background-color: white; */
     color: #fff; 
+    transition: all 1s ease;
 }
 
 
